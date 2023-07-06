@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:id="@+id/ivCam"
+       android:layout_width="60dp"
+       android:layout_height="100dp"
+       android:layout_alignParentStart="true"
+       android:layout_alignParentTop="true"
+       android:layout_marginStart="30dp"
+       android:layout_marginTop="30dp"
+       android:layout_marginEnd="30dp"
+       android:layout_marginBottom="30dp"
+       android:src="@drawable/baseline_add_a_photo_24" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/tvCam"
+       android:text="Camera"
+       android:textSize="20sp"
+       android:layout_alignParentStart="true"
+       android:layout_alignBottom="@id/ivCam"
+       android:layout_marginStart="30dp" />
+   <ImageView
+       android:layout_width="70dp"
+       android:layout_height="75dp"
+       android:src="@drawable/baseline_add_alarm_24"
+       android:layout_alignStart="@id/ivCam"
+       android:layout_marginStart="130dp"
+       android:layout_marginTop="30dp"
+       android:layout_alignParentTop="true"
+       android:id="@+id/ivAlarm" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/tvAlarm"
+       android:text="Alarm"
+       android:textSize="20dp"
+       android:layout_below="@id/ivAlarm"
+      android:layout_marginStart="160dp" />
+   <ImageView
+       android:layout_width="70dp"
+       android:layout_height="70dp"
+       android:src="@drawable/baseline_add_ic_call_24"
+      android:layout_marginStart="130dp"
+       android:layout_marginTop="30dp"
+       android:layout_alignStart="@id/ivAlarm"
+       android:layout_alignParentEnd="true"
+       android:layout_alignParentTop="true"
+       android:id="@+id/ivPhone"
+       android:layout_marginEnd="30dp"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Phone"
+       android:textSize="20sp"
+       android:id="@+id/tvPhone"
+       android:layout_below="@id/ivPhone"
+       android:layout_marginStart="300dp" />
+   <View
+       android:layout_width="130dp"
+       android:layout_height="130dp"
+       android:background="#FF9800"
+       android:layout_below="@id/tvCam"
+       android:layout_marginTop="30dp"
+       android:layout_alignParentStart="true"
+       android:id="@+id/vYellow"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/tvYellow"
+       android:text="Yellow"
+       android:textSize="20dp"
+       android:layout_marginTop="200dp"
+       android:layout_marginStart="30dp" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/tvPink"
+       android:text="Pink"
+       android:textSize="20dp"
+       android:textColor="@color/black"
+       android:layout_marginTop="190dp"
+       android:layout_marginStart="330dp"
+       />
+   <View
+       android:layout_width="130dp"
+       android:layout_height="130dp"
+       android:background="#43DD33BB"
+       android:layout_below="@id/tvPhone"
+       android:layout_marginStart="280dp"
+       android:layout_marginTop="30dp"
+       android:layout_alignParentEnd="true"
+       android:id="@+id/vPink"/>
+
+   <View
+       android:layout_width="200dp"
+       android:layout_height="70dp"
+       android:background="#00f"
+       android:layout_below="@id/vYellow"
+       android:layout_marginStart="110dp"
+       android:layout_marginTop="-100dp"/>
+   <ImageView
+       android:layout_width="40dp"
+       android:layout_height="40dp"
+       android:src="@drawable/baseline_add_reaction_24"
+       android:layout_marginTop="200dp"
+       android:layout_marginStart="190dp"/>
+   <View
+       android:layout_width="130dp"
+       android:layout_height="40dp"
+       android:background="#2196F3"
+       android:layout_below="@id/vYellow"
+       android:layout_marginTop="20dp"
+       android:layout_marginStart="40dp"
+       android:id="@+id/vBlue"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/tvSky"
+       android:text="Sky Blue"
+       android:textSize="20dp"
+       android:layout_marginTop="310dp"
+       android:layout_marginStart="50dp"/>
+   <View
+       android:layout_width="100dp"
+       android:layout_height="40dp"
+       android:background="#009607"
+       android:layout_below="@id/vBlue"
+       android:layout_marginStart="40dp"
+       android:layout_marginTop="30dp" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/tvGreen"
+       android:text="Green"
+       android:textSize="20dp"
+       android:layout_marginTop="390dp"
+       android:layout_marginStart="50dp"/>
+
+</RelativeLayout>
